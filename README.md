@@ -39,11 +39,6 @@ Each user repeatedly sends these requests according to the Thread Group configur
 - **Loop Count:** `100` iterations per user
 - **On Sample Error:** `Continue` (errors are logged but test continues)
 
-> ⚠️ **Note:** This is an intentionally high load configuration, mainly for practice/education.  
-> For demos or local runs, it is recommended to **reduce**:
-> - Threads (e.g., `50`–`100`)
-> - Loops (e.g., `5`–`10`)
-
 ---
 
 ## 🌐 HTTP Configuration
